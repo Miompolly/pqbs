@@ -65,7 +65,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <a href="index.php" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-primary"><img src="img/logo.png" style="width:50px;" alt="Professional Logo"> PROFESSIONAL</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -73,28 +73,26 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="index.php" class="nav-item nav-link active">Home</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Project Types</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="contruction.html" class="dropdown-item">Construction Design</a>
-                        <a href="facility.html" class="dropdown-item">Facility Management</a>
-                        <a href="carpenting.html" class="dropdown-item">Carpentry</a>
-                        <a href="painting.html" class="dropdown-item">Painting & Color Expertise</a>
-                        <a href="electricty.html" class="dropdown-item">Electricity</a>
-                        <a href="plumbing.html" class="dropdown-item">Plumbing</a>
-                        <a href="cctv.html" class="dropdown-item">CCTV Services</a>
-                        <a href="sustainability.html" class="dropdown-item">Sustainability</a>
+                        <a href="contruction.php" class="dropdown-item">Construction Design</a>
+                        <a href="facility.php" class="dropdown-item">Facility Management</a>
+                        <a href="carpenting.php" class="dropdown-item">Carpentry</a>
+                        <a href="painting.php" class="dropdown-item">Painting & Color Expertise</a>
+                        <a href="electricty.php" class="dropdown-item">Electricity</a>
+                        <a href="plumbing.php" class="dropdown-item">Plumbing</a>
+                        <a href="cctv.php" class="dropdown-item">CCTV Services</a>
+                        <a href="sustainability.php" class="dropdown-item">Sustainability</a>
                     </div>
                 </div>
-                <a href="career.html" class="nav-item nav-link">Career</a>
-                <a href="about.html" class="nav-item nav-link">About Us</a>
-                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <a href="career.php" class="nav-item nav-link">Career</a>
+                <a href="about.php" class="nav-item nav-link">About Us</a>
+                <a href="contact.php" class="nav-item nav-link">Contact Us</a>
             </div>
         </div>
     </nav>
-    <!-- Navbar End -->
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
         <div class="owl-carousel header-carousel position-relative">
@@ -139,7 +137,7 @@
         <div class="row g-4">
             <!-- Construction Design -->
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item text-center pt-3">
+                <div class="service-item text-center h-100 d-flex flex-column justify-content-center align-items-center pt-3">
                     <div class="p-4">
                         <i class="fa fa-3x fa-building text-primary mb-4"></i>
                         <h5 class="mb-3">Construction Design</h5>
@@ -150,7 +148,7 @@
 
             <!-- Facility Management -->
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item text-center pt-3">
+                <div class="service-item text-center h-100 d-flex flex-column justify-content-center align-items-center pt-3">
                     <div class="p-4">
                         <i class="fa fa-3x fa-tools text-primary mb-4"></i>
                         <h5 class="mb-3">Facility Management</h5>
@@ -161,7 +159,7 @@
 
             <!-- Renovation & Remodeling -->
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="service-item text-center pt-3">
+                <div class="service-item text-center h-100 d-flex flex-column justify-content-center align-items-center pt-3">
                     <div class="p-4">
                         <i class="fa fa-3x fa-hammer text-primary mb-4"></i>
                         <h5 class="mb-3">Renovation & Remodeling</h5>
@@ -172,7 +170,7 @@
 
             <!-- Sustainability Solutions -->
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="service-item text-center pt-3">
+                <div class="service-item text-center h-100 d-flex flex-column justify-content-center align-items-center pt-3">
                     <div class="p-4">
                         <i class="fa fa-3x fa-seedling text-primary mb-4"></i>
                         <h5 class="mb-3">Sustainability Solutions</h5>
@@ -226,7 +224,7 @@
                 </div>
 
                 <!-- Call to Action Button -->
-                <a class="btn btn-primary py-3 px-5 mt-2" href="about.html">Read More</a>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="about.php">Read More</a>
             </div>
         </div>
     </div>
@@ -247,8 +245,8 @@
             <div class="col-lg-7 col-md-6">
                 <div class="row g-3">
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                        <a class="position-relative d-block overflow-hidden" href="">
-                            <img class="img-fluid" src="img/back.jpeg" alt="Construction Design">
+                        <a class="position-relative d-block overflow-hidden h-100" href="">
+                            <img class="img-fluid w-100 h-100" src="img/back.jpeg" alt="Construction Design" style="object-fit: cover;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                                 <h5 class="m-0">Construction Design</h5>
                                 <small class="text-primary">15 Projects</small>
@@ -256,8 +254,8 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                        <a class="position-relative d-block overflow-hidden" href="">
-                            <img class="img-fluid" src="img/back.jpeg" alt="Renovation Services">
+                        <a class="position-relative d-block overflow-hidden h-100" href="">
+                            <img class="img-fluid w-100 h-100" src="img/back.jpeg" alt="Renovation Services" style="object-fit: cover;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                                 <h5 class="m-0">Renovation Services</h5>
                                 <small class="text-primary">10 Projects</small>
@@ -265,8 +263,8 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                        <a class="position-relative d-block overflow-hidden" href="">
-                            <img class="img-fluid" src="img/back.jpeg" alt="Sustainability Solutions">
+                        <a class="position-relative d-block overflow-hidden h-100" href="">
+                            <img class="img-fluid w-100 h-100" src="img/back.jpeg" alt="Sustainability Solutions" style="object-fit: cover;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                                 <h5 class="m-0">Sustainability Solutions</h5>
                                 <small class="text-primary">8 Projects</small>
@@ -278,7 +276,7 @@
             <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
                 <a class="position-relative d-block h-100 overflow-hidden" href="">
                     <img class="img-fluid position-absolute w-100 h-100" src="img/back.jpeg" alt="Facility Management" style="object-fit: cover;">
-                    <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                    <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                         <h5 class="m-0">Facility Management</h5>
                         <small class="text-primary">12 Projects</small>
                     </div>
@@ -287,6 +285,7 @@
         </div>
     </div>
 </div>
+
 
 <!-- Projects Start -->
 <div class="container-xxl py-5">
