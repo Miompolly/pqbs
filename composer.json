@@ -1,0 +1,16 @@
+{
+    "name": "miompolly/pqbs",
+    "description": "pqbs",
+    "license": "JOE",
+    "autoload": {
+        "psr-4": {
+            "Miompolly\\Pqbs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miompolly"
+        }
+    ],
+    "require": {}
+}
