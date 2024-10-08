@@ -43,8 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['register'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Users</title>
     <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navbar -->
@@ -73,24 +72,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['register'])) {
                 <div class="position-sticky pt-3">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="dashboard.php">
-                                Dashboard
-                            </a>
+                            <a class="nav-link active" aria-current="page" href="dashboard.php">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="user.php">
-                                Users
-                            </a>
+                            <a class="nav-link active" aria-current="page" href="user.php">Users</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="message.php">
-                                Messages
-                            </a>
+                            <a class="nav-link" href="message.php">Messages</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="project.php">
-                                Projects
-                            </a>
+                            <a class="nav-link" href="project.php">Projects</a>
                         </li>
                     </ul>
                 </div>
@@ -165,6 +156,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['register'])) {
     </div>
 
     <!-- Bootstrap Bundle with Popper -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
