@@ -66,7 +66,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.php" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary"><img src="img/logo.png" style="width:50px;" alt="Professional Logo"> PROFESSIONAL</h2>
+            <h2 class="m-0 text-primary"><img src="img/logo.png" style="width:80px;" alt="Professional Logo"> </h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -244,8 +244,9 @@
         <div class="row g-3">
             <div class="col-lg-7 col-md-6">
                 <div class="row g-3">
+                    <!-- Construction Design -->
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                        <a class="position-relative d-block overflow-hidden h-100" href="">
+                        <a class="position-relative d-block overflow-hidden h-100" href="contruction.php">
                             <img class="img-fluid w-100 h-100" src="img/back.jpeg" alt="Construction Design" style="object-fit: cover;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                                 <h5 class="m-0">Construction Design</h5>
@@ -253,8 +254,9 @@
                             </div>
                         </a>
                     </div>
+                    <!-- Renovation Services -->
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                        <a class="position-relative d-block overflow-hidden h-100" href="">
+                        <a class="position-relative d-block overflow-hidden h-100" href="renovation.php">
                             <img class="img-fluid w-100 h-100" src="img/back.jpeg" alt="Renovation Services" style="object-fit: cover;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                                 <h5 class="m-0">Renovation Services</h5>
@@ -262,8 +264,9 @@
                             </div>
                         </a>
                     </div>
+                    <!-- Sustainability Solutions -->
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                        <a class="position-relative d-block overflow-hidden h-100" href="">
+                        <a class="position-relative d-block overflow-hidden h-100" href="sustainability.php">
                             <img class="img-fluid w-100 h-100" src="img/back.jpeg" alt="Sustainability Solutions" style="object-fit: cover;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                                 <h5 class="m-0">Sustainability Solutions</h5>
@@ -271,14 +274,69 @@
                             </div>
                         </a>
                     </div>
+                    <!-- Carpentry -->
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.6s">
+                        <a class="position-relative d-block overflow-hidden h-100" href="carpenting.php">
+                            <img class="img-fluid w-100 h-100" src="img/back.jpeg" alt="Carpentry" style="object-fit: cover;">
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                <h5 class="m-0">Carpentry</h5>
+                                <small class="text-primary">6 Projects</small>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Painting & Color Expertise -->
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.7s">
+                        <a class="position-relative d-block overflow-hidden h-100" href="painting.php">
+                            <img class="img-fluid w-100 h-100" src="img/back.jpeg" alt="Painting & Color Expertise" style="object-fit: cover;">
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                <h5 class="m-0">Painting & Color Expertise</h5>
+                                <small class="text-primary">5 Projects</small>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
+            <!-- Facility Management -->
             <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                <a class="position-relative d-block h-100 overflow-hidden" href="">
+                <a class="position-relative d-block h-100 overflow-hidden" href="facility.php">
                     <img class="img-fluid position-absolute w-100 h-100" src="img/back.jpeg" alt="Facility Management" style="object-fit: cover;">
                     <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                         <h5 class="m-0">Facility Management</h5>
                         <small class="text-primary">12 Projects</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- New row for Electricity, Plumbing, and CCTV Services -->
+        <div class="row g-3 mt-3">
+            <!-- Electricity -->
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                <a class="position-relative d-block h-100 overflow-hidden" href="electricty.php">
+                    <img class="img-fluid position-absolute w-100 h-100" src="img/back.jpeg" alt="Electricity" style="object-fit: cover;">
+                    <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                        <h5 class="m-0">Electricity</h5>
+                        <small class="text-primary">9 Projects</small>
+                    </div>
+                </a>
+            </div>
+            <!-- Plumbing -->
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="1.1s" style="min-height: 350px;">
+                <a class="position-relative d-block h-100 overflow-hidden" href="plumbing.php">
+                    <img class="img-fluid position-absolute w-100 h-100" src="img/back.jpeg" alt="Plumbing" style="object-fit: cover;">
+                    <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                        <h5 class="m-0">Plumbing</h5>
+                        <small class="text-primary">7 Projects</small>
+                    </div>
+                </a>
+            </div>
+            <!-- CCTV Services -->
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="1.3s" style="min-height: 350px;">
+                <a class="position-relative d-block h-100 overflow-hidden" href="cctv.php">
+                    <img class="img-fluid position-absolute w-100 h-100" src="img/back.jpeg" alt="CCTV Services" style="object-fit: cover;">
+                    <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                        <h5 class="m-0">CCTV Services</h5>
+                        <small class="text-primary">4 Projects</small>
                     </div>
                 </a>
             </div>
@@ -301,19 +359,15 @@
                     <div class="position-relative overflow-hidden">
                         <img class="img-fluid" src="img/back.jpeg" alt="Residential Building">
                         <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">View Details</a>
-                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Contact Us</a>
+                           
+                            <a href="contact.php" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px;">Contact Us</a>
                         </div>
                     </div>
                     <div class="text-center p-4 pb-0">
                         <h5 class="mb-4">Residential Building Development</h5>
                         <p>Completed a modern residential building with eco-friendly design elements, located in the heart of the city.</p>
                     </div>
-                    <div class="d-flex border-top">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar text-primary me-2"></i>12 Months</small>
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Kigali</small>
-                        <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-primary me-2"></i>100 Workers</small>
-                    </div>
+                    
                 </div>
             </div>
             
@@ -323,19 +377,15 @@
                     <div class="position-relative overflow-hidden">
                         <img class="img-fluid" src="img/about.jpeg" alt="Commercial Complex">
                         <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">View Details</a>
-                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Contact Us</a>
+
+                            <a href="contact.php" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px;">Contact Us</a>
                         </div>
                     </div>
                     <div class="text-center p-4 pb-0">
                         <h5 class="mb-4">Commercial Complex Construction</h5>
                         <p>Developed a state-of-the-art commercial complex designed to cater to the needs of modern businesses.</p>
                     </div>
-                    <div class="d-flex border-top">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar text-primary me-2"></i>18 Months</small>
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Rwanda</small>
-                        <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-primary me-2"></i>200 Workers</small>
-                    </div>
+                    
                 </div>
             </div>
             
@@ -345,110 +395,74 @@
                     <div class="position-relative overflow-hidden">
                         <img class="img-fluid" src="img/about.jpeg" alt="Sustainable Office Building">
                         <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">View Details</a>
-                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Contact Us</a>
+                           
+                            <a href="contact.php" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius:30px;">Contact Us</a>
                         </div>
                     </div>
                     <div class="text-center p-4 pb-0">
                         <h5 class="mb-4">Sustainable Office Building</h5>
                         <p>Completed a LEED-certified sustainable office building with energy-efficient technology and green materials.</p>
                     </div>
-                    <div class="d-flex border-top">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar text-primary me-2"></i>14 Months</small>
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Rwanda</small>
-                        <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-primary me-2"></i>150 Workers</small>
-                    </div>
+                    
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <!-- First Column -->
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">Quick Link</h4>
+                <a class="btn btn-link" href="about.php">About Us</a>
+                <a class="btn btn-link" href="contact.php">Contact Us</a>
+            </div>
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Privacy Policy</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">FAQs & Help</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Remera Kigali/Rwanda</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+250780036022</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@pqualitybservice.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Gallery</h4>
-                    <div class="row g-2 pt-2">
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
+            <!-- Second Column -->
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">Contact</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Remera Kigali/Rwanda</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+250788695542 / +250783834799</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>professionalqualitybiulinding@gmail.com</p>
+                <div class="d-flex pt-2">
+                <a class="btn btn-outline-light btn-social" href="https://web.facebook.com/profile.php?id=61566409862136"><i class="fab fa-facebook-f"></i></a>
+    
+    <!-- Instagram Icon -->
+    <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/professionalqualityservices/"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">PQBS</a>, All Right Reserved.
 
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">Miompolly</a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
-                    </div>
+            <!-- Third Column -->
+            <div class="col-lg-4 col-md-6">
+    <h4 class="text-white mb-3">Newsletter</h4>
+    <p>Subscribe to our company for the latest updates and offers.</p>
+    <div class="position-relative mx-auto" style="max-width: 400px;">
+        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
+    </div>
+</div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">PQBS</a>, All Right Reserved.
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com"> HTML Codex</a>
                 </div>
+               
             </div>
         </div>
     </div>
-    <!-- Footer End -->
+</div>
+<!-- Footer End -->
 
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

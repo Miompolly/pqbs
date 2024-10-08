@@ -174,7 +174,7 @@ session_start();
                         </div>
                         <div class="ms-3">
                             <h5 class="text-primary">Mobile</h5>
-                            <p class="mb-0">+250780036022</p>
+                            <p class="mb-0">+250788695542 /0783834799</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center">
@@ -183,7 +183,7 @@ session_start();
                         </div>
                         <div class="ms-3">
                             <h5 class="text-primary">Email</h5>
-                            <p class="mb-0">57joel39@gmail.com</p>
+                            <p class="mb-0">professionalqualitybiulinding@gmail.com</p>
                         </div>
                     </div>
                 </div>
